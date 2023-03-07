@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHARITY || Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Annie+Use+Your+Telescope&family=Cookie&family=Dancing+Script:wght@400;600&family=Zeyada&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<style>
+    .subnav-content{
+        display: none;
+        background: transparent;
+        position: absolute;
+        left: 0;
+        width: 100px;
+    }
+    .subnav-content li a{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .subnav:hover .subnav-content{
+        display: block;
+    }
+    #menu-bar{
+        display: none;
+    }
+    .menu{
+        font-size: 20px;
+        color: rgb(103, 103, 134);
+        cursor: pointer;
+        display: none;
+    }
+    @media screen and (max-width: 600px){
+        .nav-bar{
+            padding: 20px;
+        }
+        .menu{
+            display: initial;
+        }
+        .nav-bar2{
+            position: absolute;
+            top: 12%; left: 0; right: 0;
+            background: white;
+            border-top: 1px solid rgb(119, 119, 138);
+        }
+        .active{
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div>
+        <nav class="nav-bar">
+            <div>
+                <h2>Eve's Foundation</h2>
+            </div> 
+            <input type="checkbox" name="" id="menu-bar">
+            <label for="menu-bar" class="menu">Menu</label>
+            <ul class="nav-bar2">
+                <li> <a href="./index.html" class="active">Home</a></li>
+                <li> <a href="./about.html">About</a></li>
+                <li> <a href="#">Vision</a></li>
+                <li class="subnav"> <a href="#">Projects</a>
+                    <ul class="subnav-content">
+                        <li><a href="#">Ongoing Projects</a></li>
+                        <li><a href="#">Recent Projects</a></li>
+                    </ul>
+                </li>
+                <li class="subnav"> <a href="#">Contact</a>
+                    <ul class="subnav-content">
+                        <li><a href="mailto:victoreve398@gmail.com" target="_blank">Email</a></li>
+                        <li><a href="tel:+2349037688550" target="_blank">Call</a></li>
+                    </ul>
+                </li>
+                <li> <a href="#">Donate</a></li>
+                
+            </ul>
+            </nav>
+            </div>
+            </header>
+        <div class="project1">
+            <div class="pro-card1">
+                <div class="card">
+               <h2> Give 100 Children Education</h2>
+               <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, harum?</h4>
+                </div>
+                <div class="card">
+                    <h3>Raised</h3>
+                    <h1>$58,000</h1>
+                </div>
+                <div class="card">
+                    <h3>To G0</h3>
+                    <h1>$120,000</h1>
+                </div>
+            <button type="submit" class="submit">Donate</button>
+        </div>
+        </div>
+        </nav>
+    </header>
+    <section class="about-us">
+         <div>
+            <h2>ABOUT US</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quis in, nostrum expedita minus dolor.</h3>
+         </div>
+         <img src="./IMAGES/img8.jpeg" alt="Happy Children">
+    </section>
+    <section>
+        <h2 class="vision1">VISION</h2>
+        <p class="vision2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quia laboriosam iusto minus voluptas maxime doloribus dolorem consequuntur in ipsum explicabo quasi quidem veniam excepturi recusandae, provident deleniti ducimus exercitationem vitae dolor. Laudantium necessitatibus, at tempora temporibus maiores accusantium sed quibusdam aspernatur exercitationem iure quas dicta itaque! Molestiae, cupiditate unde.</p>
+    </section>
+    <section class="project2">
+        <div class="data-card">
+           <img src="./IMAGES/girlchild.jpg" class="data-img" alt="">
+            <div class="data">
+                <h1>ONGOING PROJECT</h1>
+                <h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis exercitationem, accusantium repellat ipsa minima atque vel accusamus alias recusandae sapiente ipsam quibusdam voluptates dignissimos.
+                </h3>
+
+               <a href="#" target="_blank" rel="noopener noreferrer"><button class="submit-btn">Donate</button></a> 
+            </div>
+        </div>
+    </section>
+    <section class="project3">
+        <div class="data-card3">
+            <div class="card2">
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Evelyn Amadi</p>
+        <p>For more information and enquiries,please reach out to us via our social below:</p>
+        <div class="social">
+        <a href="https://www.instagram.com/evethagodd_/"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:victoreve378@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a href="tel:09037688550"><i class="fa fa-phone"></i></a>
+        </div>
+        <p class="end">Copyright by Evelyn Amadi</p>
+    </footer>
+</body>
+</html>
